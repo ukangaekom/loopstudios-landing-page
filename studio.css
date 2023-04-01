@@ -133,7 +133,7 @@ body{
 .menu-list ul li:hover a::before{
     width:100%;
     padding:.1rem 2rem;
-    border:1rem;
+    border-radius:1rem;
     background-color:white;
 
 }
@@ -373,18 +373,18 @@ body{
 
 .loospstudio-list{
     display:flex;
-    justify-content:flex-start;
+    justify-content:space-between;
 }
 .loopstudios-list ul{
     display:flex;
     flex-flow:row nowrap;
-    justify-content:space-between;
+    justify-content:flex-start;
     align-items:center;
 }
 
 .loopstudios-list ul li{
     list-style-type:none;
-    margin:0;
+    margin:1rem;
     padding:.5rem 0 .5rem 0;
 
 }
@@ -392,7 +392,7 @@ body{
 .loopstudios-list ul li a{
     color:white;
     text-decoration:none;
-    font-size:2rem;
+    font-size:1.5rem;
 }
 
 .loopstudios-list ul li a:hover{
@@ -444,10 +444,10 @@ svg:hover path{
         display:none;
         position:fixed;
         right:0;
-        bottom:0;
+        top:0;
         margin:0;
         padding:0;
-        width:99vw;
+        width:100%;
         flex-flow:column nowrap;
         height:100vh;
         justify-content: center;
@@ -501,8 +501,9 @@ svg:hover path{
     }
 
     .about-text-container{
+        padding:3rem 0 0 0;
         position:relative;
-        max-width: 100%;;    
+        max-width: 100%;   
     }
 
     .about-image-container picture img{
@@ -528,7 +529,7 @@ svg:hover path{
     .image-container{
         display:flex;
         position: relative;
-        min-width:21rem;
+        min-width:20rem;
         align-self: flex-start;
     }
 
@@ -569,6 +570,7 @@ svg:hover path{
         flex-flow:column nowrap;
         justify-content: center;
         align-items:center;
+        width:100%;
         
     }
     .image-container{
@@ -596,6 +598,7 @@ svg:hover path{
         flex-flow:column nowrap;
         justify-content: center;
         align-items:center;
+        
     }
 
     .loopstudios-container{
@@ -618,14 +621,14 @@ svg:hover path{
 
 @media  screen and (max-width: 501px) {
     .header{
-        width:100%;
+        width:100vw;
         background: url('loopstudios-landing-page-main/images/mobile/image-hero.jpg');
         background-repeat: no-repeat;
         box-sizing: border-box;
     }
 
     .main{
-        width:100%;
+        width:100vw;
         box-sizing: border-box;
     }
 
@@ -651,6 +654,11 @@ svg:hover path{
 
     .about-image-container{
         position: relative;
+    }
+
+    .about-text-container{
+        position: relative;
+        height:auto;
     }
 
     .page-heading h1{
@@ -679,21 +687,29 @@ svg:hover path{
     .image-grid-container{
         display:flex;
         flex-flow:column nowrap;
+        width:100%;
+        box-sizing: border-box;
 
     }
 
     .image-container{
-        width:100%;
+        max-width:100%;
+        box-sizing: border-box;
     }
 
     .image-container .image img{
-        min-width:30rem;
+        min-width: 10rem;
+        
 
     }
 
 
-    
+    footer{
+        width:100vw;
+    }
 
-
-    
+    svg{
+        transform: scale(.8);
+    }
 }
+
