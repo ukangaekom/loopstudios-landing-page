@@ -1,5 +1,6 @@
 const close = document.querySelector('.close');
 const menu = document.querySelector('.menu-bar');
+const navlink = document.querySelectorAll('.link');
 
 
 close.addEventListener('click',function(){
@@ -28,8 +29,15 @@ this.addEventListener('resize',function(){
         document.querySelector('.menu-list').style.transform = 'translate(100%)'
     }
 
-    console.log('tjeopjg;dsl gwdal'
-    )
 })
+
+navlink.forEach((link)=> link.addEventListener('click', function(){
+    if(window.innerWidth <= 950){
+        document.querySelector('.menu-list').style.transform = 'translate(100%)';
+    }
+    
+
+
+}))
 
 console.log(window.innerWidth)
