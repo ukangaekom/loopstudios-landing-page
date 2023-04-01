@@ -563,6 +563,7 @@ svg:hover path{
         width:100%;
         justify-content: center;
         align-items:center;
+        box-sizing: border-box;
     }
 
     .image-grid-container{
@@ -571,6 +572,7 @@ svg:hover path{
         justify-content: center;
         align-items:center;
         width:100%;
+        box-sizing:border-box;
         
     }
     .image-container{
