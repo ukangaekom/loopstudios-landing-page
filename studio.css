@@ -694,6 +694,9 @@ svg:hover path{
     .image-grid-container{
         display:flex;
         flex-flow:column nowrap;
+        justify-content:center;
+        align-items: center;
+        align-self:center;
         width:100%;
         box-sizing: border-box;
 
