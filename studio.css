@@ -27,7 +27,7 @@ body{
 
 .header{
     width:100%;
-    min-height:100vh;
+    min-height:50rem;
     display:flex;
     flex-flow:column nowrap;
     justify-content:flex-start;
