@@ -558,6 +558,10 @@ svg:hover path{
         justify-content:flex-start;
         align-items:flex-start;
     }
+    .creation-container{
+        justify-content: flex-start;
+        align-content:flex-start;
+    }
 
     .our-creation{
         display:flex;
