@@ -697,7 +697,7 @@ svg:hover path{
         justify-content:center;
         align-items: center;
         align-self:center;
-        width:100%;
+        max-width:100%;
         margin:0;
         padding:0;
         box-sizing: border-box;
@@ -721,6 +721,7 @@ svg:hover path{
 
     .image-container .image img{
         min-width: 15rem;
+
         
 
     }
