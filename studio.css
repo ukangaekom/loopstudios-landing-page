@@ -156,7 +156,7 @@ body{
 .page-heading{
     display:flex;
     align-self:flex-start;
-    max-width:50rem;
+    max-width:40rem;
     padding:2rem;
     margin:4rem 0 0 0;
     height:auto;
@@ -211,7 +211,7 @@ body{
     flex-flow:column nowrap;
     justify-content: center;
     align-items:center;
-    max-width:40rem;
+    max-width:50rem;
     height:100%;
     right:15rem;
     bottom:0;
@@ -501,7 +501,7 @@ svg:hover path{
     }
 
     .about-text-container{
-        padding:3rem 0 0 0;
+        padding:0;
         position:relative;
         max-width: 100%;   
     }
