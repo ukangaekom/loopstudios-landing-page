@@ -41,13 +41,14 @@ body{
 
 .nav{
     width:80%;
-    height:20vh;
+    height:20%;
     display:flex;
     flex-flow:row nowrap;
     justify-content:space-between;
     align-items:center;
     background-color:transparent; 
     box-sizing:border-box;
+    margin:3rem 0 0 0;
 }
 
 .nav-logo{
