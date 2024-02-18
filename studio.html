@@ -167,9 +167,9 @@
     <script src="studio.js"></script>
     <script type ='text/javascript'>
         (function(d,t){
-            var d = d.createElement(t),s = d.getElementsByTagName(t)[0];
-            v.onload = function(){
-                window.voiceflow.chatbot.load({
+            let v = d.createElement(t),s = d.getElementsByTagName(t)[0];
+            v.onload = function() {
+                window.voiceflow.chat.load({
                     verify:{projectID:'65521f17d549fb0007081182'},
                     url: 'https://general-runtime.voiceflow.com',
                     versionID:'production'
