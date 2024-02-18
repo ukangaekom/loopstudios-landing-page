@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+    <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -165,5 +165,21 @@
         </div>
     </footer>
     <script src="studio.js"></script>
+    <script type ='text/javascript'>
+        (function(d,t){
+            var d = d.createElement(t),s = d.getElementsByTagName(t)[0];
+            v.onload = function(){
+                window.voiceflow.chatbot.load({
+                    verify:{projectID:''},
+                    url: 'https://general-runtime.voiceflow.com',
+                    versionID:'production'
+                })
+            }
+            v.src= "https://cdn.voiceflow.com/widget/bundle.mjs"
+            v.type = "text/javascript"
+            s.parentNode.insertNode(v,s)
+        })
+        (document,'script')
+    </script>
 </body>
-</html>
+</html> 
