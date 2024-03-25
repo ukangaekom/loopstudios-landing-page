@@ -41,3 +41,5 @@ navlink.forEach((link)=> link.addEventListener('click', function(){
 }))
 
 console.log(window.innerWidth)
+
+// ++++++++++VF.DM.65dca7bfd5ddb863977ab53e.4EDF5IMMWKYDLWSa+++++++++++

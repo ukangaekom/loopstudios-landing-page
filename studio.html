@@ -164,8 +164,24 @@
             </div>
         </div>
     </footer>
-    <script src="studio.js"></script>
-    <script type ='text/javascript'>
+    <script src="studio.js">
+
+    </script><script type="text/javascript">
+        (function(d, t) {
+            let v = d.createElement(t), s = d.getElementsByTagName(t)[0];
+            v.onload = function() {
+            window.voiceflow.chat.load({
+                verify: { projectID: '65a2c1fd491fd25e50538871' },
+                url: 'https://general-runtime.voiceflow.com',
+                versionID: 'production'
+        });
+      }
+        v.src = "https://cdn.voiceflow.com/widget/bundle.mjs"; v.type = "text/javascript"; 
+        s.parentNode.insertBefore(v, s);
+        })(document, 'script');
+    </script>
+
+    <!-- <script type ='text/javascript'>
         (function(d,t){
             let v = d.createElement(t),s = d.getElementsByTagName(t)[0];
             v.onload = function() {
@@ -180,6 +196,6 @@
             s.parentNode.insertBefore(v,s);
         })
         (document,'script')
-    </script>
+    </script> -->
 </body>
 </html> 
